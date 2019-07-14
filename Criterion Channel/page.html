@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <!-- Your CSS files -->
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <!-- google fonts: Open Sans (sans) and Lora ) -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap" rel="stylesheet">
+      
+    <title>Criterion Collection Analysis</title>
+  </head>
+
+  <body class="light-theme"> <!-- all of the content on your html page goes inside the body -->
+
+    <div class="header">
+      <h1 class="headline">Criterion Collection: What Criteria?</h1>
+      <!-- <h2 class="subhead">If you need a subhead, it can go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2> -->
+      <p class="byline">By Huiyi Liu</p>
+      <p class="date">Published July 12, 2019</p>
+    </div>
+
+    <div class="story-body">
+      <p class="body-text"> As a somewhat cinephile, I am a subscriber to the Criterion Collectoin streaming service, and I get to see some of the best movies ever made on it. But Criterion Collection does more cool things than that - they also focused on distributing "important classic and contemporary films". The company covered things such as film restoration, publishing collectable blue-ray/DVD edition, critics’ commentary add-ons, and so on and so forth. For this project, I want to investigate on what basis the CC team decides on which film is worth collecting, meaning that I will be looking into the data of all the films they have licensed so far and see what these films align with or diverge from one another, just so we could get a better sense of why the team selected those films and the relationship between different variables (could be country, director, length, format, and etc.).</p>
+    </div>
+
+    <div class="chart-section">
+      <p class="chart-title">WHERE?</p>
+      <p class="chart-subhead">First, we are going to take a look at the origin of CC's liscensed films. Which country has more films on the list? Which country has more director on the list? </p>
+      <p class="chart-subhead">The 1209 films in the current collection come from 44 different countries. Among them, films produced in the U.S. take up the majority. The U.S. also has the highest number of directors whose films are liscensed by CC.</p>
+      <div class="chart-row">
+        <div class="chart">
+          <img src="images/film_by_country.png"/>
+        </div>
+
+        <div class="chart">
+          <img src="images/dir_by_country.png"/>
+        </div>
+      </div>
+      <p class="chart-source">Sources: https://www.criterion.com/shop/browse/list</p>
+    </div>
+
+    <div class="story-body">
+      <p class="body-text">Very similar pattern between the two graphs above. United States is listed as number 1 on both charts.</p>
+
+      <div class="chart-section">
+        <p class="chart-title">But if you look at the count of CC liscensed films by director:</p>
+        <p class="chart-subhead">None of the directors from the top 10 list is from the U.S. </p>
+        <div class="chart-row">
+          <div class="chart">
+            <img src="images/top_dir.png"/>
+          </div>
+        </div>
+        <p class="chart-source">Sources: One source; another source</p>
+      </div>
+
+        <div class="chart-section">
+          <p class="chart-title">More Graphs:</p>
+          <p class="chart-subhead"> </p>
+          <div class="chart-row">
+            <div class="chart">
+              <img src="images/year_count.png"/>
+              <img src="images/year_vs_duration.png"/>
+              <img src="images/year_vs_duration_facet.png"/>
+            </div>
+          </div>
+          <!-- <p class="chart-source">Sources: One source; another source</p> -->
+        </div>      
+    </div>
+
+
+
+  </body>
+
+</html>
